@@ -1,0 +1,39 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Caderneta" [level=6] [ref=e156]
+      - tablist [ref=e9]:
+        - tab "Alunos" [ref=e157] [cursor=pointer]
+        - tab "Turmas" [ref=e158] [cursor=pointer]
+        - tab "Disciplinas" [ref=e159] [cursor=pointer]
+        - tab "Avaliações" [selected] [ref=e160] [cursor=pointer]
+        - tab "Lançamento de Notas" [ref=e161] [cursor=pointer]
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - heading "Avaliações" [level=5] [ref=e162]
+      - button [active] [ref=e163] [cursor=pointer]
+    - table [ref=e54]:
+      - rowgroup [ref=e55]:
+        - row [ref=e164]:
+          - columnheader "Nome" [ref=e165]
+          - columnheader "Turma" [ref=e166]
+          - columnheader "Disciplina" [ref=e167]
+          - columnheader "Peso" [ref=e168]
+          - columnheader "Ações" [ref=e169]
+      - rowgroup [ref=e62]:
+        - row [ref=e170]:
+          - cell "Prova 2" [ref=e171]
+          - cell "9A" [ref=e172]
+          - cell "Matemática" [ref=e173]
+          - cell "40" [ref=e174]
+          - cell [ref=e68]:
+            - button [ref=e69] [cursor=pointer]
+            - button [ref=e72] [cursor=pointer]
+        - row [ref=e175]:
+          - cell "Trabalho" [ref=e176]
+          - cell "9A" [ref=e177]
+          - cell "Matemática" [ref=e178]
+          - cell "60" [ref=e179]
+          - cell [ref=e180]:
+            - button [ref=e181] [cursor=pointer]
+            - button [ref=e184] [cursor=pointer]

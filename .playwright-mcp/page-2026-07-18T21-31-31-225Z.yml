@@ -1,0 +1,37 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - heading [level=6] [ref=f1e54]: Caderneta
+        - tablist [ref=f1e9]:
+          - tab [ref=f1e55] [cursor=pointer]: Alunos
+          - tab [ref=f1e56] [cursor=pointer]: Turmas
+          - tab [ref=f1e57] [cursor=pointer]: Disciplinas
+          - tab [ref=f1e58] [cursor=pointer]: Avaliações
+          - tab [selected] [ref=f1e59] [cursor=pointer]: Lançamento de Notas
+    - generic [ref=f1e17]:
+      - heading [level=5] [ref=f1e60]: Lançamento de Notas
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e36]: Turma
+          - generic [ref=f1e21]:
+            - combobox [ref=f1e61] [cursor=pointer]: 9A
+            - textbox: "1"
+            - group:
+              - generic: Turma
+        - generic [ref=f1e23]:
+          - generic [ref=f1e62]: Disciplina
+          - generic [ref=f1e24]:
+            - combobox [expanded] [ref=f1e63] [cursor=pointer]
+            - textbox
+            - group:
+              - generic: Disciplina
+        - generic [ref=f1e26]:
+          - generic: Avaliação
+          - generic [ref=f1e27]:
+            - combobox [disabled] [ref=f1e64]
+            - textbox [disabled]
+            - group:
+              - generic: Avaliação
+  - listbox "Disciplina" [ref=f1e67]:
+    - option "Matemática" [active] [ref=f1e68] [cursor=pointer]

@@ -1,0 +1,38 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - heading [level=6] [ref=f1e79]: Caderneta
+        - tablist [ref=f1e9]:
+          - tab [ref=f1e80] [cursor=pointer]: Alunos
+          - tab [ref=f1e81] [cursor=pointer]: Turmas
+          - tab [ref=f1e82] [cursor=pointer]: Disciplinas
+          - tab [ref=f1e83] [cursor=pointer]: Avaliações
+          - tab [selected] [ref=f1e84] [cursor=pointer]: Lançamento de Notas
+    - generic [ref=f1e17]:
+      - heading [level=5] [ref=f1e85]: Lançamento de Notas
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - generic [ref=f1e36]: Turma
+          - generic [ref=f1e21]:
+            - combobox [ref=f1e86] [cursor=pointer]: 9A
+            - textbox: "1"
+            - group:
+              - generic: Turma
+        - generic [ref=f1e23]:
+          - generic [ref=f1e62]: Disciplina
+          - generic [ref=f1e24]:
+            - combobox [ref=f1e87] [cursor=pointer]: Matemática
+            - textbox: "1"
+            - group:
+              - generic: Disciplina
+        - generic [ref=f1e26]:
+          - generic [ref=f1e88]: Avaliação
+          - generic [ref=f1e27]:
+            - combobox [expanded] [ref=f1e89] [cursor=pointer]
+            - textbox
+            - group:
+              - generic: Avaliação
+  - listbox "Avaliação" [ref=f1e92]:
+    - option "Prova 2 (peso 40)" [active] [ref=f1e93] [cursor=pointer]
+    - option "Trabalho (peso 60)" [ref=f1e94] [cursor=pointer]

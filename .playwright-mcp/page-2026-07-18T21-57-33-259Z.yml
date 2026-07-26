@@ -1,0 +1,32 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - heading [level=6] [ref=f1e55]: Caderneta
+        - tablist [ref=f1e9]:
+          - tab [ref=f1e56] [cursor=pointer]: Alunos
+          - tab [ref=f1e57] [cursor=pointer]: Turmas
+          - tab [ref=f1e58] [cursor=pointer]: Disciplinas
+          - tab [ref=f1e59] [cursor=pointer]: Avaliações
+          - tab [ref=f1e60] [cursor=pointer]: Lançamento de Notas
+          - tab [selected] [ref=f1e61] [cursor=pointer]: Médias
+          - tab [ref=f1e62] [cursor=pointer]: Configurações
+    - generic [ref=f1e19]:
+      - heading [level=5] [ref=f1e63]: Médias
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]:
+          - generic [ref=f1e37]: Turma
+          - generic [ref=f1e23]:
+            - combobox [ref=f1e64] [cursor=pointer]: T1
+            - textbox: "1"
+            - group:
+              - generic: Turma
+        - generic [ref=f1e25]:
+          - generic [ref=f1e65]: Disciplina
+          - generic [ref=f1e26]:
+            - combobox [expanded] [ref=f1e66] [cursor=pointer]
+            - textbox
+            - group:
+              - generic: Disciplina
+  - listbox "Disciplina" [ref=f1e69]:
+    - option "Mat" [active] [ref=f1e70] [cursor=pointer]

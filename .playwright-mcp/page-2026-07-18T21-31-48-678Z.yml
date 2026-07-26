@@ -1,0 +1,49 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - heading "Caderneta" [level=6] [ref=f1e95]
+      - tablist [ref=f1e9]:
+        - tab "Alunos" [ref=f1e96] [cursor=pointer]
+        - tab "Turmas" [ref=f1e97] [cursor=pointer]
+        - tab "Disciplinas" [ref=f1e98] [cursor=pointer]
+        - tab "Avaliações" [ref=f1e99] [cursor=pointer]
+        - tab "Lançamento de Notas" [selected] [ref=f1e100] [cursor=pointer]
+  - generic [ref=f1e17]:
+    - heading "Lançamento de Notas" [level=5] [ref=f1e101]
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - generic [ref=f1e36]: Turma
+        - generic [ref=f1e21]:
+          - combobox "Turma" [ref=f1e102] [cursor=pointer]: 9A
+          - textbox: "1"
+          - group:
+            - generic: Turma
+      - generic [ref=f1e23]:
+        - generic [ref=f1e62]: Disciplina
+        - generic [ref=f1e24]:
+          - combobox "Disciplina" [ref=f1e103] [cursor=pointer]: Matemática
+          - textbox: "1"
+          - group:
+            - generic: Disciplina
+      - generic [ref=f1e26]:
+        - generic [ref=f1e88]: Avaliação
+        - generic [ref=f1e27]:
+          - combobox "Avaliação" [active] [ref=f1e104] [cursor=pointer]: Prova 2 (peso 40)
+          - textbox: "2"
+          - group:
+            - generic: Avaliação
+    - table [ref=f1e106]:
+      - rowgroup [ref=f1e107]:
+        - row [ref=f1e108]:
+          - columnheader "Nome" [ref=f1e109]
+          - columnheader "Matrícula" [ref=f1e110]
+          - columnheader "Nota" [ref=f1e111]
+      - rowgroup [ref=f1e112]:
+        - row [ref=f1e113]:
+          - cell "Joao" [ref=f1e114]
+          - cell "001" [ref=f1e115]
+          - cell [ref=f1e116]:
+            - generic [ref=f1e118]:
+              - textbox [ref=f1e119]
+              - group
+    - button "Salvar notas" [ref=f1e121] [cursor=pointer]

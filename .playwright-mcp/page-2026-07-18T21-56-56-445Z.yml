@@ -1,0 +1,22 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Caderneta" [level=6] [ref=e6]
+      - tablist [ref=e9]:
+        - tab "Alunos" [ref=e10] [cursor=pointer]
+        - tab "Turmas" [ref=e11] [cursor=pointer]
+        - tab "Disciplinas" [ref=e12] [cursor=pointer]
+        - tab "Avaliações" [ref=e13] [cursor=pointer]
+        - tab "Lançamento de Notas" [ref=e14] [cursor=pointer]
+        - tab "Médias" [ref=e15] [cursor=pointer]
+        - tab "Configurações" [selected] [ref=e16] [cursor=pointer]
+  - generic [ref=e19]:
+    - heading "Configurações" [level=5] [ref=e20]
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Média mínima para aprovação
+        - generic [ref=e24]:
+          - textbox "Média mínima para aprovação" [ref=e25]: "7"
+          - group:
+            - generic: Média mínima para aprovação
+      - button "Salvar" [ref=e26] [cursor=pointer]

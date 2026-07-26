@@ -1,0 +1,27 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - heading "Caderneta" [level=6] [ref=f2e6]
+      - tablist [ref=f2e9]:
+        - tab "Alunos" [selected] [ref=f2e10] [cursor=pointer]
+        - tab "Turmas" [ref=f2e11] [cursor=pointer]
+        - tab "Disciplinas" [ref=f2e12] [cursor=pointer]
+        - tab "Avaliações" [ref=f2e13] [cursor=pointer]
+        - tab "Lançamento de Notas" [ref=f2e14] [cursor=pointer]
+        - tab "Médias" [ref=f2e15] [cursor=pointer]
+        - tab "Configurações" [ref=f2e16] [cursor=pointer]
+  - generic [ref=f2e19]:
+    - generic [ref=f2e20]:
+      - heading "Alunos" [level=5] [ref=f2e21]
+      - button [ref=f2e22] [cursor=pointer]
+    - table [ref=f2e27]:
+      - rowgroup [ref=f2e28]:
+        - row [ref=f2e29]:
+          - columnheader "Nome" [ref=f2e30]
+          - columnheader "Matrícula" [ref=f2e31]
+          - columnheader "Data de nascimento" [ref=f2e32]
+          - columnheader "Turma" [ref=f2e33]
+          - columnheader "Ações" [ref=f2e34]
+      - rowgroup [ref=f2e35]:
+        - row [ref=f2e36]:
+          - cell "Nenhum aluno cadastrado" [ref=f2e37]

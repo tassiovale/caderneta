@@ -1,0 +1,29 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - heading "Caderneta" [level=6] [ref=f1e44]
+      - tablist [ref=f1e9]:
+        - tab "Alunos" [ref=f1e45] [cursor=pointer]
+        - tab "Turmas" [ref=f1e46] [cursor=pointer]
+        - tab "Disciplinas" [ref=f1e47] [cursor=pointer]
+        - tab "Avaliações" [ref=f1e48] [cursor=pointer]
+        - tab "Lançamento de Notas" [ref=f1e49] [cursor=pointer]
+        - tab "Médias" [selected] [ref=f1e50] [cursor=pointer]
+        - tab "Configurações" [ref=f1e51] [cursor=pointer]
+  - generic [ref=f1e19]:
+    - heading "Médias" [level=5] [ref=f1e52]
+    - generic [ref=f1e21]:
+      - generic [ref=f1e22]:
+        - generic [ref=f1e37]: Turma
+        - generic [ref=f1e23]:
+          - combobox "Turma" [active] [ref=f1e53] [cursor=pointer]: T1
+          - textbox: "1"
+          - group:
+            - generic: Turma
+      - generic [ref=f1e25]:
+        - generic: Disciplina
+        - generic [ref=f1e26]:
+          - combobox "Disciplina" [ref=f1e54] [cursor=pointer]
+          - textbox
+          - group:
+            - generic: Disciplina

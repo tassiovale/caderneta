@@ -1,0 +1,64 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading [level=6] [ref=e75]: Caderneta
+        - tablist [ref=e9]:
+          - tab [ref=e76] [cursor=pointer]: Alunos
+          - tab [ref=e77] [cursor=pointer]: Turmas
+          - tab [ref=e78] [cursor=pointer]: Disciplinas
+          - tab [selected] [ref=e79] [cursor=pointer]: Avaliações
+          - tab [ref=e80] [cursor=pointer]: Lançamento de Notas
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading [level=5] [ref=e81]: Avaliações
+        - button [ref=e82] [cursor=pointer]: Nova avaliação
+      - table [ref=e54]:
+        - rowgroup [ref=e55]:
+          - row [ref=e83]:
+            - columnheader [ref=e84]: Nome
+            - columnheader [ref=e85]: Turma
+            - columnheader [ref=e86]: Disciplina
+            - columnheader [ref=e87]: Peso
+            - columnheader [ref=e88]: Ações
+        - rowgroup [ref=e62]:
+          - row [ref=e89]:
+            - cell [ref=e90]: Prova 2
+            - cell [ref=e91]: 9A
+            - cell [ref=e92]: Matemática
+            - cell [ref=e93]: "40"
+            - cell [ref=e68]:
+              - button [ref=e69] [cursor=pointer]
+              - button [ref=e72] [cursor=pointer]
+  - dialog [active] [ref=e96]:
+    - heading "Nova avaliação" [level=2] [ref=e97]
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic: Nome
+        - generic [ref=e100]:
+          - textbox "Nome" [ref=e101]
+          - group:
+            - generic: Nome
+      - generic [ref=e102]:
+        - generic: Turma
+        - generic [ref=e103]:
+          - combobox "Turma" [ref=e104] [cursor=pointer]
+          - textbox
+          - group:
+            - generic: Turma
+      - generic [ref=e105]:
+        - generic: Disciplina
+        - generic [ref=e106]:
+          - combobox "Disciplina" [disabled] [ref=e107]
+          - textbox [disabled]
+          - group:
+            - generic: Disciplina
+      - generic [ref=e108]:
+        - generic: Peso
+        - generic [ref=e109]:
+          - textbox "Peso" [ref=e110]
+          - group:
+            - generic: Peso
+    - generic [ref=e111]:
+      - button "Cancelar" [ref=e112] [cursor=pointer]
+      - button "Salvar" [disabled]
