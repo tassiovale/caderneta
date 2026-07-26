@@ -33,7 +33,6 @@ Both dev servers must be running simultaneously for the app to work end-to-end.
   - `Turma.belongsToMany(Disciplina)` through implicit join table `TurmaDisciplina` — a class has many subjects and a subject can belong to many classes.
 - `routes/` — one router per resource, mounted in `server.js` under `/api/alunos`, `/api/turmas`, `/api/disciplinas`. Routes call model methods directly (no service/controller layer). `turmas.js` routes accept a `disciplinaIds` array in the request body and use `turma.setDisciplinas(disciplinaIds)` to sync the association on create/update.
 - Express 5 is in use, which auto-forwards rejected promises from async route handlers to the error middleware — no need for `express-async-errors` or manual try/catch around normal async logic.
-- Unique-constraint violations (duplicate `matricula`) are caught explicitly in `routes/alunos.js` and turned into a 400 with a friendly message; other errors fall through to the generic error middleware in `server.js`.
 
 ### Frontend (`frontend/src`)
 
