@@ -89,3 +89,11 @@ frontend/src/
 ```
 
 Mais detalhes de arquitetura e convenções em [CLAUDE.md](./CLAUDE.md).
+
+## Autor
+
+Tassio Valle
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](./LICENSE).
